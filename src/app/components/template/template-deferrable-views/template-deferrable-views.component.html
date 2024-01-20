@@ -1,0 +1,10 @@
+<p>template-deferrable-views works!</p>
+@defer (on idle){
+<app-new-component />
+} @placeholder {
+<p>Mostrar antes de carregar algo.</p>
+} @loading {
+<p>Loading...</p>
+} @error {
+<p>Loading failed</p>
+}
