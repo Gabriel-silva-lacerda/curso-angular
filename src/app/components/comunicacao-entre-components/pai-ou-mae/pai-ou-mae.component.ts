@@ -11,4 +11,5 @@ import { OutputComponent } from '../output/output.component';
 })
 export class PaiOuMaeComponent {
   name = signal('Gabriel Silva');
+  outputName = signal('Output: sem valor');
 }
