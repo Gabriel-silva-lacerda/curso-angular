@@ -5,6 +5,7 @@ import { NewComponent } from './components/new-component/new-component.component
 import { TemplateBindingComponent } from './components/template-binding/template-binding.component';
 import { TemplateDeferrableViewsComponent } from './components/template/template-deferrable-views/template-deferrable-views.component';
 import { SignalComponent } from './components/signal/signal.component';
+import { PaiOuMaeComponent } from './components/comunicacao-entre-components/pai-ou-mae/pai-ou-mae.component';
 
 @Component({
   selector: 'app-root',
@@ -16,11 +17,12 @@ import { SignalComponent } from './components/signal/signal.component';
     TemplateBindingComponent,
     TemplateDeferrableViewsComponent,
     SignalComponent,
+    PaiOuMaeComponent,
   ],
   template: `
     <!-- <router-outlet></router-outlet>  -->
     <h1>Curso de Angular</h1>
-    <app-signal />
+    <app-pai-ou-mae />
   `,
 })
 export class AppComponent {
