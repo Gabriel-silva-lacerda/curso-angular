@@ -6,6 +6,7 @@ import { TemplateBindingComponent } from './components/template-binding/template
 import { TemplateDeferrableViewsComponent } from './components/template/template-deferrable-views/template-deferrable-views.component';
 import { SignalComponent } from './components/signal/signal.component';
 import { PaiOuMaeComponent } from './components/comunicacao-entre-components/pai-ou-mae/pai-ou-mae.component';
+import { AngulasPipesComponent } from './components/pipes/angular-pipes/angular-pipes.component';
 
 @Component({
   selector: 'app-root',
@@ -18,11 +19,12 @@ import { PaiOuMaeComponent } from './components/comunicacao-entre-components/pai
     TemplateDeferrableViewsComponent,
     SignalComponent,
     PaiOuMaeComponent,
+    AngulasPipesComponent,
   ],
   template: `
     <!-- <router-outlet></router-outlet>  -->
     <h1>Curso de Angular</h1>
-    <app-pai-ou-mae />
+    <app-angular-pipes />
   `,
 })
 export class AppComponent {
